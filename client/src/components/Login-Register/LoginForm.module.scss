@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+
+  flex-direction: column;
+  gap: 10px;
+  .error {
+    color: red;
+  }
+  input {
+    height: 30px;
+    font-size: 1.1rem;
+    padding: 5px;
+  }
+  button {
+    background-color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,59 @@
+.container {
+  background-color: rgb(240, 240, 234);
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+
+  width: 30%;
+  span {
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  .imgContainer {
+    width: 100%;
+    div {
+      position: absolute;
+      background-color: #2f2f2f;
+      color: white;
+      border: 1px solid white;
+      border-left: none;
+      border-top: none;
+      text-align: center;
+      padding: 10px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+    h3 {
+      color: rgb(64, 64, 64);
+      font-weight: 100;
+    }
+  }
+
+  .buttonPrice {
+    width: 80%;
+
+    margin: auto auto 20px auto;
+    text-align: center;
+
+    button {
+      width: 100%;
+      background-color: white;
+      padding: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  }
+}

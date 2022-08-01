@@ -1,0 +1,67 @@
+.nav {
+  background-color: #2f2f2f;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: white;
+  font-size: 2rem;
+  z-index: 100;
+
+  .nickLogout {
+    display: flex;
+    gap: 10px;
+    cursor: default;
+  }
+  .logout {
+    color: grey;
+    align-self: flex-end;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  li {
+    cursor: pointer;
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .imgContainer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5px;
+    img {
+      width: 70px;
+      height: auto;
+      transform: skewX(10deg);
+      margin: 0 auto 0 auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 5px;
+    }
+  }
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  span {
+    display: flex;
+    gap: 20px;
+    gap: 10px;
+    button {
+      background-color: white;
+      padding: 10px;
+      cursor: pointer;
+    }
+  }
+}

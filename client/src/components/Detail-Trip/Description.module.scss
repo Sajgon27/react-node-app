@@ -1,0 +1,20 @@
+.container {
+  font-size: 2rem;
+  width: 60%;
+  margin: 200px auto 200px auto;
+}
+.container::before {
+  content: "";
+  transform: skewX(10deg);
+  position: absolute;
+  display: block;
+  margin: auto;
+  left: 0;
+  right: 0;
+
+  width: 65%;
+  height: 150px;
+  border: 2px solid black;
+  border-top: none;
+  border-bottom: none;
+}
